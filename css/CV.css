@@ -1,0 +1,28 @@
+#name {
+font-size : 2em;
+font-weight : bold
+
+}
+div {
+    /* border: 1px solid red; */
+    width : 45%;
+    display : inline-block;
+}
+.rightjust {
+    text-align: right;
+}
+.aligntop {
+    vertical-align: top;
+}
+table {
+    width: 100%;
+    border: 1px solid silver;
+}
+td,th {  /* can put multiple labels on a style */
+    width: 20%;
+    text-align: left;
+    border: 1px solid silver;
+}
+.role {
+    font-weight: bold;
+}
