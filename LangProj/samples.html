@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
+</head>
+<body style="font-size:1.5em;margin-left:25px">
+    
+        <span>Arithmetic data can be either fixed point or floating, both using in decimal or binary as its base. An example of each of these combinations:</span>
+<br><br>
+        <p>TEST: PROCEDURE OPTIONS(MAIN); </p> 
+        <p> DECLARE XB FIXED BINARY(16);</p>
+        <p> DECLARE XD FIXED DECIMAL(8,2);</p>
+        <p> DECLARE FB FLOAT BINARY(8);</p>
+        <p> DECLARE FD FLOAT DECIMAL(5);</p>
+        <p>XB = 42;</p>
+        <p>XD = 123.45;</p>
+        <p>FB = 10110.01B;</p>
+        <p>FD = 123.45678;</p>
+        <p>PUT FILE (SCARDS) LIST(XB, XD, FB, FD);</p>
+        <p>END TEST;  </p>
+        <br>
+        <p>which will print</p>
+        <br>
+        <p> 42      123.45  2.22E+01  1.2345E+02 </p>
+
+<br><br>
+<p>Following is the PL/I flavor of the "Hello World!" program. 
+    Comment statements are contained within /*  */  - just like C++.</p>
+
+	<p>/* Hello World in PL1 */</p>
+
+            <p>Hello: 	/* each procedure block is given a name - in this case, Hello */</p>
+
+                    <p>procedure options(main);  /* declares this is the main part
+  			       of the program    */</p>
+
+                     <p>put list('Hello World!');  /* prints "Hello World!"   */</p>
+                     <p>put skip;         	     /* skips a line   */</p>
+  <p>end Hello;	    /* tells the compiler which procedure block to end. This
+		       is likely a very useful feature for eliminating
+		       ambiguity within nested loops or conditional
+               statements.  */</p>
+               <p></p>
+               <br>
+        <p><a href="Language.html">Return to our wonderful homepage!</a></p>
+
+</body>
+</html>
